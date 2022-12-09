@@ -25,7 +25,6 @@ class Strings{
         
         StringTokenizer st2 = new StringTokenizer(user," ");
         while(st2.hasMoreTokens()){
-            System.out.println(st2.nextToken());
-        }
+            System.out.println(st2.nextToken(",")); // the Spliting position can be decided while creating ( StringTokenizer() ) or inside while loop in ( nextToken() )         }
     }
 }
